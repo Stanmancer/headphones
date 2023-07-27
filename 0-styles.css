@@ -1,0 +1,63 @@
+/* MAIN CSS =============================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(176, 166, 238);
+    color: #fff;
+    /* font-family: system-ui; */
+}
+
+a {
+    text-decoration: none;
+    /* color: inherit; */
+}
+
+li {
+    list-style: none;
+}
+
+li :hover,
+li :active {
+    color: #ff6565;
+}
+
+button :hover,
+button :active {
+    opacity: 0.9;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header-container {
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 160px;
+    /* background-color: yellow; */
+}
+
+.navbar {
+    width: 255px;
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    font-weight: bold;
+}
