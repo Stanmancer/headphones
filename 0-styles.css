@@ -9,12 +9,15 @@
 body {
     background-color: rgb(176, 166, 238);
     color: #fff;
-    /* font-family: system-ui; */
+}
+
+h1,
+p {
+    font-family: 'source_sans_proregular';
 }
 
 a {
     text-decoration: none;
-    /* color: inherit; */
 }
 
 li {
@@ -45,7 +48,6 @@ button :active {
 
 .header-logo img {
     width: 160px;
-    /* background-color: yellow; */
 }
 
 .navbar {
@@ -60,4 +62,11 @@ button :active {
 
 .navbar a {
     font-weight: bold;
+}
+
+.hero-section {
+    background: url(images/headphones_hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
