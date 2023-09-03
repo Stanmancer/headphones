@@ -645,6 +645,11 @@ footer .container {
     transform: scale(180%);
 }
 
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .footer-copyright {
     font-family: 'source_sans_proregular';
     font-size: 12px;
