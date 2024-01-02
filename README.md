@@ -7,7 +7,7 @@ A responsive webpage implemented from scratch, without any library, based on a d
 - Flexbox
 
 ### Live Site URL
-[Live site here](stanmancer.github.io/headphones/). *Hosted using Github Pages.*
+[Live site here](https://stanmancer.github.io/headphones/). *Hosted using Github Pages.*
 
 
 ## Final Screens
