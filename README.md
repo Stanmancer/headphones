@@ -1,5 +1,5 @@
 # Headphones
-A webpage implemented from scratch, without any library, based on a design model by [Nicholas Philipot](https://www.linkedin.com/in/nic0fil).
+A responsive webpage implemented from scratch, without any library, based on a design model by [Nicholas Philipot](https://www.linkedin.com/in/nic0fil).
 
 ### Built with
 - Semantic HTML5 markup
