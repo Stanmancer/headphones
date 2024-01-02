@@ -674,6 +674,14 @@ footer a {
         width: 90vw;
     }
 
+    .hero-header h1 {
+        width: 99%;
+    }
+
+    .hero-body {
+        width: 100%;
+    }
+
     .hero-text {
         width: 95%;
     }
@@ -685,6 +693,18 @@ footer a {
 
     .wwd-container {
         margin: 100px auto;
+    }
+
+    .wwd-body {
+        width: 100%;
+    }
+
+    .wwd-icons {
+        /* width: 100%; */
+    }
+
+    .results-body {
+        width: 100%;
     }
 
     .results-icons {
@@ -755,11 +775,6 @@ footer a {
         gap: 95px;
     }
 
-    .results-section {
-        background-image: linear-gradient(#0000, #0000);
-        background-blend-mode: overlay;
-    }
-
     .results-body {
         width: 80%;
     }
@@ -769,29 +784,10 @@ footer a {
         align-self: center;
     }
 
-    .results-body::after {
-        content: url(images/headphones_hero_2.jpg);
-        position: absolute;
-        width: 915px;
-        /* width: calc(915px / 100vw); */
-        z-index: -1;
-        translate: -550px -200px;
-        overflow-x: hidden;
-    }
-
     .results-icons {
         width: 100%;
         flex-direction: column;
         align-items: center;
-    }
-
-    .results-icons::after {
-        content: '';
-        background-image: linear-gradient(#0b2b66fd, 14%, #000);
-        position: absolute;
-        width: 100vw;
-        height: 155%;
-        z-index: -2;
     }
 
     .footer-container {
