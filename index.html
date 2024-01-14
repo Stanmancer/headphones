@@ -13,8 +13,31 @@
 </head>
 
 <body>
+    <!-- Mobile Menu-->
+    <div class="hamburger">
+        <input type="checkbox" class="sb-toggler">
+        <div class="hamburger-icon"></div>
+    </div>
+
+    <aside id="sidebar" class="sidebar">
+        <nav class="sidebar-nav">
+            <ul>
+                <li class="nav-item">
+                    <a href="#What-we-do">what we do</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#our-results">our results</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact-us">contact us</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <!-- End of Mobile Menu -->
+
     <!-- Hero Section -->
-    <section class="hero-section">
+    <section id="hero" class="hero-section">
         <div class="container">
             <!-- Header -->
             <header>
@@ -39,33 +62,9 @@
                         </ul>
                     </nav>
                 </div>
-
-                <div class="mobile-header-container">
-                    <div class="dropdown-menu">
-                        <input type="checkbox" class="dp-toggler">
-
-                        <div class="dropdown-icon">
-                            <div class="rec rec-01"></div>
-                            <div class="rec rec-02"></div>
-                            <div class="rec rec-03"></div>
-                        </div>
-
-                        <nav class="dropdown-nav">
-                            <ul>
-                                <li class="nav-item">
-                                    <a href="#What-we-do">what we do</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#our-results">our results</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#contact-us">contact us</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
             </header>
 
+            <!-- Hero -->
             <div class="hero-body">
                 <div class="hero-header">
                     <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
@@ -81,46 +80,45 @@
             </div>
         </div>
     </section>
+    <!-- End of Hero section -->
 
-    <main>
+    <main id="main">
         <!-- What We Do -->
         <section class="wwd-section" id="What-we-do">
-            <div class="container">
-                <div class="wwd-container">
-                    <div class="wwd-body">
-                        <h2>What we do...</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <div class="container wwd-container">
+                <div class="wwd-body">
+                    <h2>What we do...</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+
+                <div class="wwd-icons">
+                    <div class="wwd-sound">
+                        <div class="wwd-ic holberton_school-icon-ic_sound"></div>
+
+                        <h4>Lorem Ipsum</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
 
-                    <div class="wwd-icons">
-                        <div class="wwd-sound">
-                            <div class="wwd-ic holberton_school-icon-ic_sound"></div>
+                    <div class="wwd-video">
+                        <div class="wwd-ic holberton_school-icon-ic_video"></div>
 
-                            <h4>Lorem Ipsum</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
+                        <h4>Lorem Ipsum</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
 
-                        <div class="wwd-video">
-                            <div class="wwd-ic holberton_school-icon-ic_video"></div>
+                    <div class="wwd-music">
 
-                            <h4>Lorem Ipsum</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
+                        <div class="wwd-ic holberton_school-icon-ic_music"></div>
 
-                        <div class="wwd-music">
+                        <h4>Lorem Ipsum</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
 
-                            <div class="wwd-ic holberton_school-icon-ic_music"></div>
+                    <div class="wwd-hearing">
+                        <div class="wwd-ic holberton_school-icon-ic_hearing"></div>
 
-                            <h4>Lorem Ipsum</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-
-                        <div class="wwd-hearing">
-                            <div class="wwd-ic holberton_school-icon-ic_hearing"></div>
-
-                            <h4>Lorem Ipsum</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
+                        <h4>Lorem Ipsum</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
             </div>
@@ -128,45 +126,43 @@
 
         <!-- Our Results -->
         <section class="results-section" id="our-results">
-            <div class="container">
-                <div class="results-container">
-                    <div class="results-body">
-                        <h2>Our results speak for themselves</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <div class="container results-container">
+                <div class="results-body">
+                    <h2>Our results speak for themselves</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+
+                <div class="results-icons">
+                    <div class="results-pent">
+                        <img class="res-pent res-pent-01" src="images/pentagone.png" alt="pentagone-shape">
+
+                        <div class="res-text">
+                            <p>+2%</p>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
                     </div>
+                    <div class="results-pent">
+                        <img class="res-pent res-pent-02" src="images/pentagone.png" alt="pentagone-shape">
 
-                    <div class="results-icons">
-                        <div class="results-pent">
-                            <img class="res-pent res-pent-01" src="images/pentagone.png" alt="pentagone-shape">
-
-                            <div class="res-text">
-                                <p>+2%</p>
-                                <p>Lorem ipsum dolor</p>
-                            </div>
+                        <div class="res-text">
+                            <p>+2%</p>
+                            <p>Lorem ipsum dolor</p>
                         </div>
-                        <div class="results-pent">
-                            <img class="res-pent res-pent-02" src="images/pentagone.png" alt="pentagone-shape">
+                    </div>
+                    <div class="results-pent">
+                        <img class="res-pent res-pent-03" src="images/pentagone.png" alt="pentagone-shape">
 
-                            <div class="res-text">
-                                <p>+2%</p>
-                                <p>Lorem ipsum dolor</p>
-                            </div>
+                        <div class="res-text">
+                            <p>+2%</p>
+                            <p>Lorem ipsum dolor</p>
                         </div>
-                        <div class="results-pent">
-                            <img class="res-pent res-pent-03" src="images/pentagone.png" alt="pentagone-shape">
+                    </div>
+                    <div class="results-pent">
+                        <img class="res-pent res-pent-04" src="images/pentagone.png" alt="pentagone-shape">
 
-                            <div class="res-text">
-                                <p>+2%</p>
-                                <p>Lorem ipsum dolor</p>
-                            </div>
-                        </div>
-                        <div class="results-pent">
-                            <img class="res-pent res-pent-04" src="images/pentagone.png" alt="pentagone-shape">
-
-                            <div class="res-text">
-                                <p>+2%</p>
-                                <p>Lorem ipsum dolor</p>
-                            </div>
+                        <div class="res-text">
+                            <p>+2%</p>
+                            <p>Lorem ipsum dolor</p>
                         </div>
                     </div>
                 </div>
@@ -198,7 +194,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer id="footer">
         <div class="container">
             <div class="footer-container">
                 <div class="footer-logo">
